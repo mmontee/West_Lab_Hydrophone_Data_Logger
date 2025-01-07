@@ -1,3 +1,5 @@
 **West Lab Hydrophone Data Logger**
 
 The West Lab Hydrophone Data Logger uses a Teensy 4.0 and the Teensy Audio shield to periodically record audio data.
+
+See the user manual for more information.
