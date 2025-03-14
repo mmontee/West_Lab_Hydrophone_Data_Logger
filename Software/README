@@ -1,0 +1,11 @@
+**West Lab Hydrophone Data Logger Software**
+
+This project used the [Ardino](https://www.arduino.cc/en/software) and [TeensyDuino](https://www.pjrc.com/teensy/td_download.html) libraries.</br>
+
+Software for Teensy</br>
+West_Lab_Hydrophone_Data_Logger</br>
+
+
+Software to convert the outout .RAW to .wav file</br>
+rawToWav.py </br>
+
