@@ -1,0 +1,118 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "SJ1-3533NS" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at -7.70046 10.9756 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "SJ1-3533NS" (id 1) (at -7.68732 -17.8265 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "SJ1-3533NS:CUI_SJ1-3533NS" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "1.04" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "12.95mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "CUI Devices" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "SJ1-3533NS_0_0"
+      (polyline
+        (pts (xy -0.889 -2.54) (xy -1.524 -1.27)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.524 -1.27) (xy -2.159 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 5.08 5.08) (xy -1.905 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.905 5.08) (xy -2.54 3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 3.81) (xy -3.175 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -4.318 3.81) (xy -4.318 -1.27)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -4.318 -1.27) (xy -5.842 -1.27)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.842 -1.27) (xy -5.842 3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.842 3.81) (xy -5.08 3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 3.81) (xy -4.318 3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 5.08 7.62) (xy -5.08 7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 7.62) (xy -5.08 3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 5.08 -2.54) (xy -0.889 -2.54)) (stroke (width 0.1524))
+      )
+      (rectangle (start -7.62 -15.24) (end 5.08 10.16)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at 10.16 7.62 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -2.54 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 5.08 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -7.62 180.0) (length 5.08)
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SH1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -10.16 180.0) (length 5.08)
+        (name "SHIELD__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SH2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -12.7 180.0) (length 5.08)
+        (name "SHIELD__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SH3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
